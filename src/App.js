@@ -80,7 +80,7 @@ function App() {
             start ? "backdrop-blur-0 z-0" : "backdrop-blur-lg z-20"
           } transition-all delay-300`}
         >
-          <div className="flex flex-col gap-y-4 justify-around md:w-[70%] md:h-[80%] overflow-hidden">
+          <div className="flex flex-col gap-y-4 justify-around w-[70%] h-[80%] overflow-hidden">
             <div
               className={`w-40 h-40 shadow-lg rounded-full p-6 ${
                 result >= 3 ? "bg-yellow-300" : "bg-green-300"
