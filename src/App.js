@@ -43,7 +43,7 @@ const data = [
   },
   {
     id: 5,
-    question: `What does the acronym /"CPU/" stand for?`,
+    question: `What does the acronym "CPU" stand for?`,
     a: "Central Processing Unit",
     b: "Computer Processing Unit",
     c: "Control Processing Unit",
