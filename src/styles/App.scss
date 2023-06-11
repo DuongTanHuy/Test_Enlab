@@ -1,0 +1,57 @@
+.quiz-background {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1621804298968-5fc664947fd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+}
+
+.quiz-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background: url("https://images.unsplash.com/photo-1621804298968-5fc664947fd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow-x: auto;
+  overflow-y: auto;
+  transition: 0.5s;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.quiz-content .quiz-form {
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  transition-delay: 0.4s;
+}
+
+.quiz-content.active .quiz-form {
+  transform: translateY(-100%);
+  transition-delay: 0s;
+}
+
+@media (max-width: 424px) {
+  .foot {
+    flex-direction: column;
+  }
+  .foot > label {
+    margin-bottom: 12px;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    margin: 0px;
+    width: 100%;
+  }
+  .btn button {
+    width: 100% !important;
+  }
+}
