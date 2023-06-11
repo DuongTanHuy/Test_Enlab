@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         "3xl-gradient": "linear-gradient(to bottom, #00c6ff, #0072ff)",
         "4xl-gradient": "linear-gradient(to bottom, #00b3cc, #2c7744)",
+        "5xl-gradient": "linear-gradient(to bottom, #f06966, #fad6a6)",
       },
     },
   },

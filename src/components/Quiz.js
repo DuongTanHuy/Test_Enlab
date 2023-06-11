@@ -61,7 +61,7 @@ const Quiz = ({
       <div
         className={`fixed flex flex-col text-center  justify-around items-center p-6 top-0 left-0 right-0 bottom-0 bg-white ${
           show ? "" : "scale-0"
-        } transition-all`}
+        } transition-all bg-5xl-gradient`}
       >
         <div
           className={`w-40 h-40 shadow-lg rounded-full p-6 ${
@@ -99,7 +99,7 @@ const Quiz = ({
             setStartTime(new Date());
             setStart(false);
           }}
-          className="w-[20%] h-[9%] bg-orange-500 rounded-full shadow-3xl font-semibold text-white hover:shadow-none hover:scale-95 transition-all"
+          className="w-[20%] h-[9%] bg-orange-500 rounded-full shadow-lg font-semibold text-white hover:shadow-none hover:scale-95 transition-all"
         >
           Play again
         </button>
